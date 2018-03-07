@@ -17,8 +17,8 @@ int main(int argc, const char * argv[]) {
     int currentValue;
     int current;
     int v;
-    //Input data from a csv file
-    ip.open("/Users/harshithareddy/Data structures/Mutual Friend-Recommender/input.csv", ifstream::in);
+    //Input data from a csv file. Change according to the location.
+    ip.open("/Users/harshithareddy/Mutual Friend Recommender/input.csv", ifstream::in);
     if(!ip.is_open())
         cout<<"Error file open"<<endl;
     getline(ip, nodes, ',');
